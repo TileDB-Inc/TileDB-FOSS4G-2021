@@ -6,27 +6,22 @@
 
 ## Outline
 
-In this workshop we will explore how to efficiently work with large dense and sparse arrays. We will explore some of the key features of the underlying TileDB library: parallelized read and write operations, multiple compression formats, time traveling (i.e., the ability to recover data stored at previous timepoints), and flexible encryption.
+In this workshop you will explore how to efficiently work with large dense and sparse arrays. You will explore some of the key features of the underlying TileDB library: parallelized read and write operations, multiple compression formats, time traveling (i.e., the ability to recover data stored at previous timepoints), and flexible encryption.
 
-Several examples will be provided, and you will have an opportunity to follow along on your laptop. All material and instructions will be available as Jupyter Python notebooks in a GitHub repo. You will learn how to work with dense arrays (satellite images, weather maps, time series) and sparse arrays (point clouds such as LiDAR and SONAR data). We will show the following capabilities:
+Several examples will be provided, and you will have an opportunity to follow along on your laptop. All material and instructions are available as Jupyter notebooks in this GitHub repo. You will learn how to work with dense arrays (satellite images, weather maps, time series) and sparse arrays (point clouds such as LiDAR and SONAR data). The workshop will cover the topics: 
 
-* Introduction
+* Introduction to TileDB arrays
 * Weather data
 * LiDAR data
 * SONAR data
 * SAR data
 * Putting it all together
 
-## Requirements
+## Getting started
 
-All examples can use either TileDB Embedded or TileDB Cloud. TileDB Embedded is the open-source embedded library and array format (https://github.com/TileDB-Inc/TileDB). TileDB Cloud (https://cloud.tiledb.com/auth/signup) is SaaS built on TileDB Embedded and adds extra features for data governance and infrastructure automation.
+All examples can use either TileDB Embedded or TileDB Cloud. TileDB Embedded is the open-source embedded library and array format (https://github.com/TileDB-Inc/TileDB). TileDB Cloud (https://cloud.tiledb.com/auth/signup) is a SaaS built on TileDB Embedded and adds extra features for data governance and infrastructure automation.
 
 Attendees using TileDB Embedded will configure their own Python environments on their local machines. Free credits will be provided to attendees who choose to use TileDB Cloud, which comes with Jupyter Lab environments preloaded with popular geospatial packages. Attendees using TileDB Cloud will also be able to share data with each other within the workshop without setting up AWS IAM roles, and they will be able to process distributed computations without configuring large clusters.
-
-However you prefer to work, we will be available to help you through the examples!
-
-
-## Getting started
 
 You can follow along with the workshop by running the Jupyter notebooks. You can run these either on your own machine or in the TileDB Cloud. Below you can find how to get started.
 
