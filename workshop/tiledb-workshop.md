@@ -25,33 +25,28 @@ Attendees using TileDB Embedded will configure their own Python environments on 
 
 You can follow along with the workshop by running the Jupyter notebooks. You can run these either on your own machine or in the TileDB Cloud. Below you can find how to get started.
 
-### On your own machine
-
-To run the workshop notebooks make sure you have the following installed:
-
-* Python
-* Jupyter Lab
-* The following Python packages:
-	* 
 
 #### Workshop material
 
-* All material for the workshop is in this [Github repo]()
+* All material for the workshop is in this [Github repo](https://github.com/TileDB-Inc/FOSS4G-2021)
 * Clone this repo to your local machine
 * Open a terminal
 * Navigate to the local version of the repo
 
-#### conda
+### On your own machine
+
+To run the workshop notebooks make sure you have the following installed:
+
+#### Conda
 
 It is good practice to create a new Python environment for a new project. This is what we used to create an environment with [Miniconda](https://docs.conda.io/en/latest/miniconda.html) to run the notebook in [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html):
 
 After installing conda go run the following in a terminal:
 
 ``` bash
-conda create --name tiledb-env python=3.8
+conda create --name tiledb-env python=3.9
 conda activate tiledb-env
-conda install pandas numpy jupyterlab ipykernel
-conda install -c conda-forge tiledb-py pyarrow
+conda install -c conda-forge pandas numpy jupyterlab ipykernel tiledb-py pyarrow
 ipython kernel install --user --name=tiledb-env
 jupyter lab
 ```
@@ -62,13 +57,23 @@ This installs a Python environment `tiledb-env` with all packages needed to run 
 
 In case you are not able to install Python and Jupyter Lab on your machine you can follow along using TileDB Cloud. 
 
-> *Replace the below with detailed instructions and screenshots of where to click etc for every little step needed from creating an account to running a notebook* 
-
 Follow  [these instructions](https://docs.tiledb.com/cloud/tutorials/console-walkthrough) to get started. 
 
 ## Weather data
 
 ## LiDAR data
+
+Additional requirements
+
+```
+conda install -c conda-forge pdal matplotlib
+```
+
+and optionally 
+
+```
+conda install -c conda-forge awscli
+```
 
 ## SONAR data
 
