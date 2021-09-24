@@ -77,6 +77,12 @@ conda install -c conda-forge awscli
 
 ## SONAR data
 
+`pip install git+https://github.com/Teledyne-Marine/pyread7k.git`
+
 ## SAR data
+
+```
+conda install -c conda-forge rasterio jq
+```
 
 ## Putting it all together
