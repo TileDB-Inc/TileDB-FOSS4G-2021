@@ -13,3 +13,12 @@ dependencies:
   - rasterio
   - jq
   - pdal
+  - geopandas
+  - sparse
+  - netcdf4
+  - xarray
+  - cartopy
+  - awscli
+  - pip 
+  - pip:
+    - tiledb-cf
