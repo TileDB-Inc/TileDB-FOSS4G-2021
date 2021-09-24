@@ -1,0 +1,15 @@
+name: tiledb-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ipykernel
+  - pyarrow
+  - pandas
+  - numpy
+  - tiledb-py
+  - jupyterlab
+  - matplotlib
+  - rasterio
+  - jq
+  - pdal

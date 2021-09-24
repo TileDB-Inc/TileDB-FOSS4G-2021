@@ -22,4 +22,5 @@
 * [Abstract](https://callforpapers.2021.foss4g.org/foss4g2021/talk/DXDAFA/)
 
 ## More resources
-*‌*
+
+The installation requirements for setting up the workshop are [here](https://github.com/TileDB-Inc/FOSS4G-2021/blob/main/workshop/tiledb-workshop.md)
