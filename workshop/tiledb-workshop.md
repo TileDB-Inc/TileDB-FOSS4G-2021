@@ -10,11 +10,12 @@ In this workshop you will explore how to efficiently work with large dense and s
 
 Several examples will be provided, and you will have an opportunity to follow along on your laptop. All material and instructions are available as Jupyter notebooks in this GitHub repo. You will learn how to work with dense arrays (satellite images, weather maps, time series) and sparse arrays (point clouds such as LiDAR and SONAR data). The workshop will cover the topics: 
 
-* Introduction to TileDB arrays
-* LiDAR data
-* SONAR data
-* SAR data
-* Weather data
+* Workshop introduction (Mike Broberg)
+* Introduction to TileDB arrays (Dr. Julia Dark)
+* LiDAR data (Norman Barker)
+* SONAR data (Norman Barker)
+* SAR data (Chloe Taub)
+* Weather data (Dr. Julia Dark)
 
 ## Getting started
 
