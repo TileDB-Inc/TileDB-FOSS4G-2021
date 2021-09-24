@@ -11,11 +11,10 @@ In this workshop you will explore how to efficiently work with large dense and s
 Several examples will be provided, and you will have an opportunity to follow along on your laptop. All material and instructions are available as Jupyter notebooks in this GitHub repo. You will learn how to work with dense arrays (satellite images, weather maps, time series) and sparse arrays (point clouds such as LiDAR and SONAR data). The workshop will cover the topics: 
 
 * Introduction to TileDB arrays
-* Weather data
 * LiDAR data
 * SONAR data
 * SAR data
-* Putting it all together
+* Weather data
 
 ## Getting started
 
@@ -44,45 +43,10 @@ It is good practice to create a new Python environment for a new project. This i
 After installing conda go run the following in a terminal:
 
 ``` bash
-conda create --name tiledb-env python=3.9
+conda env create
 conda activate tiledb-env
-conda install -c conda-forge pandas numpy jupyterlab ipykernel tiledb-py pyarrow
 ipython kernel install --user --name=tiledb-env
 jupyter lab
 ```
 
 This installs a Python environment `tiledb-env` with all packages needed to run the workshop and will open Jupyter Lab in a browser.
-
-### TileDB Cloud
-
-In case you are not able to install Python and Jupyter Lab on your machine you can follow along using TileDB Cloud. 
-
-Follow  [these instructions](https://docs.tiledb.com/cloud/tutorials/console-walkthrough) to get started. 
-
-## Weather data
-
-## LiDAR data
-
-Additional requirements
-
-```
-conda install -c conda-forge pdal matplotlib
-```
-
-and optionally 
-
-```
-conda install -c conda-forge awscli
-```
-
-## SONAR data
-
-`pip install git+https://github.com/Teledyne-Marine/pyread7k.git`
-
-## SAR data
-
-```
-conda install -c conda-forge rasterio jq
-```
-
-## Putting it all together
