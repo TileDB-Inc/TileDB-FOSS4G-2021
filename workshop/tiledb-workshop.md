@@ -59,7 +59,7 @@ Docker:
 ```bash
 docker pull jupyter/scipy-notebook:lab-3.1.12
 docker build -t --rm tiledb-foss4g .
-docker run --rm -it -v ${PWD}/notebooks:/home/joyvan/work -v ${PWD}/data:/home/joyvan/data
+docker run --rm -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work -v $PWD/data:/home/jovyan/data tiledb-foss4g
 ```
 
 Docker-Compose:
