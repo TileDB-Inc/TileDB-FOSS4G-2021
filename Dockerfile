@@ -13,7 +13,7 @@ RUN mamba install --yes \
     rasterio \
     && mamba clean --all -f -y
 
-RUN pip install --no-cache-dir tiledb-cf
+RUN pip install --no-cache-dir tiledb-cf xarray sparse geopandas
 
 RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
