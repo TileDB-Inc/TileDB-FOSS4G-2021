@@ -15,6 +15,7 @@ Several examples will be provided, and you will have an opportunity to follow al
 * LiDAR data (Norman Barker)
 * SONAR data (Norman Barker)
 * SAR data (Chloe Taub)
+* Hyperspectral data (Norman Barker)
 * Weather data (Dr. Julia Dark)
 
 ## Getting started
@@ -59,7 +60,7 @@ If you have docker installed, you can use Docker or Docker+Docker-Compose to lau
 Docker:
 ```bash
 docker pull jupyter/scipy-notebook:lab-3.1.12
-docker build -t --rm tiledb-foss4g .
+docker build -t tiledb-foss4g .
 docker run --rm -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work -v $PWD/data:/home/jovyan/data tiledb-foss4g
 ```
 
