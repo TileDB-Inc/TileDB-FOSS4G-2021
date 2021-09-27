@@ -11,6 +11,7 @@ RUN mamba install --yes \
     pandas \
     awscli \
     rasterio \
+    spectral \
     && mamba clean --all -f -y
 
 RUN pip install --no-cache-dir tiledb-cf xarray sparse geopandas
