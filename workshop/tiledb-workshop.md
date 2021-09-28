@@ -15,6 +15,7 @@ Several examples will be provided, and you will have an opportunity to follow al
 * LiDAR data (Norman Barker)
 * SONAR data (Norman Barker)
 * SAR data (Chloe Taub)
+* Hyperspectral data (Norman Barker)
 * Weather data (Dr. Julia Dark)
 
 ## Getting started
@@ -51,3 +52,24 @@ jupyter lab
 ```
 
 This installs a Python environment `tiledb-env` with all packages needed to run the workshop and will open Jupyter Lab in a browser.
+
+#### Docker
+
+If you have docker installed, you can use Docker or Docker+Docker-Compose to launch the Jupyter notebook. Run the following in the base directory of this repo:
+
+Docker:
+```bash
+docker pull jupyter/scipy-notebook:lab-3.1.12
+docker build -t tiledb-foss4g .
+docker run --rm -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work -v $PWD/data:/home/jovyan/data tiledb-foss4g
+```
+
+Docker-Compose:
+```bash
+docker pull jupyter/scipy-notebook:lab-3.1.12
+docker-compose build
+docker-compose up
+```
+
+Once you run the docker container (either with `docker run` or `docker-compose up`) copy and paste the third URL into a browser to open Jupyter. 
+
