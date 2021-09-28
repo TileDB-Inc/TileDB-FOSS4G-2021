@@ -1,3 +1,5 @@
+<a href="https://tiledb.com"><img src="https://github.com/TileDB-Inc/TileDB/raw/dev/doc/source/_static/tiledb-logo_color_no_margin_@4x.png" alt="TileDB logo" width="400"></a>
+
 # TileDB at FOSS4G 2021
 
 ## Presentations
@@ -24,3 +26,8 @@
 ## More resources
 
 The installation requirements for setting up the workshop are [here](https://github.com/TileDB-Inc/FOSS4G-2021/blob/main/workshop/tiledb-workshop.md)
+
+And you can also use our forum and slack channel.
+
+https://forum.tiledb.com/
+https://tiledb-community.slack.com/ 
